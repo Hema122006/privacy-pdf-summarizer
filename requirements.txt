@@ -1,0 +1,7 @@
+streamlit
+transformers==4.41.2
+huggingface-hub==0.23.4
+torch
+spacy
+PyPDF2
+sentencepiece
