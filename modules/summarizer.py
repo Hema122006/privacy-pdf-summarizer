@@ -3,7 +3,7 @@ from transformers import pipeline
 # Load summarization model
 summarizer = pipeline(
     "summarization",
-    model="facebook/bart-large-cnn"
+    model="sshleifer/distilbart-cnn-12-6"
 )
 
 def generate_summary(text):
